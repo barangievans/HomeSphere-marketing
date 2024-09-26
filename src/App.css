@@ -1,38 +1,79 @@
-.App {
-  text-align: center;
+/* App.css */
+
+/* Reset some default browser styles */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+body {
+  font-family: 'Arial', sans-serif;
+  line-height: 1.6;
+  background-color: #f9f9f9; /* Light background color */
+  color: #333; /* Dark text color for better readability */
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
+/* Container for the app content */
+.app-container {
+  max-width: 1200px;
+  margin: 0 auto; /* Center align */
+  padding: 20px;
+}
+
+/* Styling for headings */
+h1, h2, h3 {
+  color: #4CAF50; /* A pleasant green for headings */
+}
+
+/* Basic button styles */
+button {
+  background-color: #4CAF50; /* Green background */
+  color: white; /* White text */
+  border: none; /* No border */
+  padding: 10px 20px; /* Padding */
+  border-radius: 5px; /* Rounded corners */
+  cursor: pointer; /* Pointer cursor on hover */
+  transition: background-color 0.3s ease; /* Smooth transition */
+}
+
+button:hover {
+  background-color: #45a049; /* Darker green on hover */
+}
+
+/* Links styling */
+a {
+  color: #4CAF50; /* Link color */
+  text-decoration: none; /* Remove underline */
+}
+
+a:hover {
+  text-decoration: underline; /* Underline on hover */
+}
+
+/* Form input styles */
+input[type="text"],
+input[type="password"],
+input[type="email"],
+textarea {
+  width: 100%; /* Full width */
+  padding: 10px; /* Padding */
+  margin: 10px 0; /* Vertical margin */
+  border: 1px solid #ccc; /* Light border */
+  border-radius: 5px; /* Rounded corners */
+}
+
+input[type="submit"] {
+  width: auto; /* Auto width for submit buttons */
+}
+
+/* Responsive styles */
+@media (max-width: 768px) {
+  .app-container {
+      padding: 10px; /* Reduce padding on smaller screens */
   }
-}
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
-}
-
-.App-link {
-  color: #61dafb;
-}
-
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
+  h1 {
+      font-size: 24px; /* Responsive heading size */
   }
 }

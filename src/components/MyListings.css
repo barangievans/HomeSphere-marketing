@@ -1,0 +1,30 @@
+/* src/components/MyListings.css */
+
+.my-listings {
+    padding: 20px;
+    background-color: #f9f9f9;  /* Light gray background */
+    border-radius: 8px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+.my-listings h2 {
+    color: #333;  /* Dark gray text color */
+    margin-bottom: 20px;
+}
+
+.my-listings ul {
+    list-style-type: none;  /* Remove default list styling */
+    padding: 0;
+}
+
+.my-listings li {
+    background-color: #fff;  /* White background for each item */
+    margin: 10px 0;
+    padding: 10px;
+    border-radius: 4px;
+    box-shadow: 0 1px 3px rgba(0, 0, 0, 0.1);
+}
+
+.error-message {
+    color: red;  /* Red color for error messages */
+}

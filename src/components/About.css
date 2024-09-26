@@ -1,0 +1,42 @@
+/* src/components/About.css */
+.about-container {
+    max-width: 800px;
+    margin: 20px auto;
+    padding: 20px;
+    background-color: #f9f9f9;
+    border-radius: 5px;
+    box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+}
+
+h1 {
+    text-align: center;
+    color: #2c3e50;
+}
+
+p {
+    font-size: 1.1em;
+    line-height: 1.6;
+    color: #34495e;
+}
+
+.highlight-note {
+    background-color: #ecf0f1; /* Light gray */
+    padding: 15px;
+    border-radius: 5px;
+    margin: 20px 0;
+}
+
+.highlight-note h2 {
+    color: #2980b9; /* Blue */
+    text-align: center;
+}
+
+.highlight-note ul {
+    list-style: none;
+    padding: 0;
+}
+
+.highlight-note li {
+    margin: 10px 0;
+    font-size: 1.1em;
+}
